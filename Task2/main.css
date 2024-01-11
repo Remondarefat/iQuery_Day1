@@ -1,0 +1,31 @@
+body {
+    text-align: -webkit-center;
+ }
+ .container {
+    overflow: hidden;
+    width: 554px;
+
+}  
+.images {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+.slide {
+    min-width: 100%;
+    box-sizing: border-box;
+}
+img {
+    width: 100%;
+}
+#stop {
+    padding-inline: 100px;
+    
+    height: 40px;
+    border-radius: 20px;
+    margin: 10px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(0, 255, 234);
+    border-color: transparent;
+    font-weight: bold;
+    font-size: 30px;
+}
